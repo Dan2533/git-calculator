@@ -10,7 +10,7 @@ public class OperationsTest {
         // Given
         int x = 1;
         int y = 1;
-
+        
         //When
         int expected = 2;
         int actual = Operations.add(x, y);
