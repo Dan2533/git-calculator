@@ -10,7 +10,7 @@ public class OperationsTest {
         // Given
         int x = 1;
         int y = 1;
-        
+
         //When
         int expected = 2;
         int actual = Operations.add(x, y);
@@ -47,4 +47,17 @@ public class OperationsTest {
         Assert.assertEquals(expected, actual);
     }
 
+    @Test
+    public void testDivide() throws Exception {
+        //Given
+         double x = 12;
+         double y = 9;
+
+         //When
+         double expected = 3;
+         double actual = Operations.divide(x,y);
+
+         //Then
+        Assert.assertEquals(expected, actual,0.0);
+    }
 }
